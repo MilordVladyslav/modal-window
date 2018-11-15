@@ -1,0 +1,318 @@
+#modal-window {
+    display: block;
+    margin:100px auto;
+}
+
+.modal-dialog {
+    margin: 64px auto;
+    width: 1272px;
+}
+
+.modal-open .modal {
+    background: #787e84;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: none;
+}
+.modal-header {
+    padding-top: 41px;
+    padding-left: 40px;
+    padding-right: 40px;
+    // padding-bottom: 50px;
+    border-bottom: none;
+
+}
+
+.modal-header .close {
+    margin-top: -85px;
+    margin-right: -83px;
+}
+
+.clock {
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    background: #81d135;
+    float: left;
+    margin-right: 54px;
+    img {
+        display: block;
+        margin: 27px auto;
+    }
+}
+
+.title {
+    color: @titles;
+    padding-top: 11px;
+    font-size: 36px;
+}
+
+.under-title {
+    font-weight: normal;
+    margin-top: 27px;
+    font-size: 32px;
+    color: @silver;
+}
+
+.header-content {
+    padding-bottom: 28px;
+    border-bottom: 2px solid #e5eff1;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-body {
+    padding-top: 20px;
+    padding-left: 39px;
+    padding-right: 40px;
+}
+
+.description {
+    width: 632px;
+    padding-bottom: 10px;
+    float: left;
+
+    .image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+}
+
+.description-content {
+    padding: 30px 58px 48px 36px;
+    box-shadow: 0 4px 10px #eaeaea; /* Параметры тени */
+}
+
+.description-title {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.44;
+    margin-bottom: 15px;
+    color: @titles;
+}
+
+.date {
+    padding-left: 5px;
+
+}
+
+.icon {
+    float: left;
+    margin-right: 13px;
+}
+
+.author {
+    font-size: 21px;
+    padding-top: 7px;
+    color:  @silver;
+    a {
+        color: @links;
+    }
+}
+
+
+
+.short-preview {
+    a {
+        color: @titles;
+    }
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.power-share {
+    padding-left: 8px;
+    width: 530px;
+    // outline: 1px solid black;
+    float: right;
+}
+
+.power-share-title {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    img {
+        padding-top: 5px;
+        float: left;
+    }
+    h3 {
+        color: @titles;
+        padding-top: 2px;
+        margin-left: 155px;
+    }
+}
+
+.channels-title {
+    margin-bottom: 61px;
+    p {
+        float: left;
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 4px;
+    }
+}
+
+.check {
+    border: 2px solid #efefef;
+    cursor: pointer;
+    margin-right: 7px;
+    float: right;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    
+}
+
+.user {
+    padding-left: 5px;
+    margin-bottom: 38px;
+
+    .check {
+        margin-top: 20px;
+    }
+
+    img {
+        float: left;
+    }
+    .userName {
+
+        float: left;
+        margin-top: 19px;
+        margin-left: 38px;
+        font-size: 27px;
+        font-weight: bold;
+        a{
+            color: black;
+        }
+    }
+}
+
+.add-channel {
+    p {
+        padding-top: 25px;
+        font-size: 26px;
+        a {
+            color: @links;
+        }
+    }
+}
+
+.add-icon {
+    img {
+        float: left;
+
+    }
+    width: 72px;
+    height: 75px;
+    margin-left: 5px;
+    margin-right: 43px;
+    padding-top: 21px;
+    padding-left: 21px;
+    border: 2px solid @links;
+    border-radius: 50%;
+    float: left;
+}
+
+.textarea-wrapper {
+
+    .message {
+        font-size: 22px;
+    }
+
+    .explaining {
+        float: left;
+        width: 25px;
+        border: 1px solid black;
+        height: 25px;
+        margin-left: 9px;
+        margin-top: 3px;
+        border-radius: 50%;
+        padding-left: 10px;
+        padding-top: 4px;
+        cursor: pointer;
+        p {
+            font-size: 16px;
+        }
+
+    }
+    a {
+        color: @links;
+    }
+
+    margin-top: 69px;
+
+    .textarea {
+        margin-top: 14px;
+        border-radius: 5px;
+    }
+
+    textarea {
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 25px;
+        border-radius: 5px;
+        box-shadow: none;
+        border: 2px solid #e8e8e8;
+        resize: none;
+        width: 100%;
+        height: 247px;
+        overflow: auto;
+    }
+
+    p {
+        font-size: 24px;
+        float: left;
+    }
+    a {
+        font-size: 23px;
+        float: right;
+    }
+}
+
+.modal-footer {
+
+    margin-top: 87px;
+    padding-bottom: 34px;
+    padding-right: 40px;
+
+    #save {
+        font-size: 27px;
+        width: 325px;
+        height: 70px;
+        border-radius: 35px;
+        text-transform: uppercase;
+        background-color: @links;
+        border: none;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.5); /* Параметры тени */
+    }
+
+    #close {
+        color: @titles;
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-right: 82px;
+        border: none;
+        border-bottom: 1px solid black;
+        background:none;
+        border-radius: 0;
+        padding: 0;
+        height: 31px;
+        font-weight: bold;
+        margin-top: -11px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
