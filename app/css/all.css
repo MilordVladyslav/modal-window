@@ -205,7 +205,6 @@ body {
   border: 1px solid black;
   height: 25px;
   margin-left: 9px;
-  margin-top: 3px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   padding-left: 10px;
@@ -393,6 +392,7 @@ body {
   }
   .textarea-wrapper a {
     font-size: 18px;
+    clear: both;
     float: left;
     margin-top: 16px;
   }
